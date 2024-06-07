@@ -159,7 +159,6 @@ fieldset {
 
 /* КНОПКА */
 .button {
-  margin-top: 20px;
   width: 194px;
   height: 34px;
   border: 1px solid #fff;
@@ -170,6 +169,10 @@ fieldset {
   font-weight: 700;
   line-height: 21.6px;
   text-align: center;
+}
+
+.search-form__submit-button {
+  margin-top: 20px;
 }
 
 .button:active {
@@ -229,10 +232,8 @@ fieldset {
   margin-bottom: 30px;
 }
 
-/* 
-  background: #545050; - фон в макетe
-*/
-.content__card-link_current:active  {
+/* как-то так */
+.content__card-link_current {
   background-color: #545050;
 }
 
@@ -260,6 +261,11 @@ fieldset {
   display: block;
   text-decoration: none;
   color: #fff;
+}
+
+/* И тут как-то так */
+.content__card-link:active {
+  background-color: #545050;
 }
 
 .content__card-link:focus {
