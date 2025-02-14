@@ -1,1 +1,1 @@
-https://github.com/DKMFzF/posmotri_v_okno.git
+# Посмотри в окно!
